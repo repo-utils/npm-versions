@@ -1,0 +1,24 @@
+{
+  "name": "npm-versions",
+  "description": "Get all the semantically versioned releases of an npm package.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jonathan Ong",
+    "email": "me@jongleberry.com",
+    "url": "http://jongleberry.com",
+    "twitter": "https://twitter.com/jongleberry"
+  },
+  "license": "MIT",
+  "repository": "github-utils/npm-versions",
+  "dependencies": {
+    "debug": "*",
+    "semver": "^2.2.1"
+  },
+  "devDependencies": {
+    "co": "^3.0.0",
+    "mocha": "^1.17"
+  },
+  "scripts": {
+    "test": "mocha --harmony-generators --reporter spec --bail"
+  }
+}
