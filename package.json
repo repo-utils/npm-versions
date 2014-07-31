@@ -12,7 +12,7 @@
   "repository": "github-utils/npm-versions",
   "dependencies": {
     "debug": "*",
-    "semver": "^2.2.1"
+    "semver": "3"
   },
   "devDependencies": {
     "co": "^3.0.0",
